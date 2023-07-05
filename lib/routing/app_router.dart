@@ -1,7 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:unit_one_weather/features/home/presentation/home_screen.dart';
-import 'package:unit_one_weather/features/map/presentation/map_screen.dart';
+import 'package:unit_one_weather/features/search/presentation/map_screen.dart';
 
 enum AppRoute { home, search }
 

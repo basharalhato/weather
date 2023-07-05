@@ -49,6 +49,18 @@ class HomeScreen extends ConsumerWidget {
                   ),
                 ),
                 SliverPadding(
+                  padding: const EdgeInsets.only(top: 24),
+                  sliver: SliverToBoxAdapter(
+                    child: Text(
+                      'Weather in the next five days',
+                      style: Theme.of(context)
+                          .textTheme
+                          .headlineSmall
+                          ?.copyWith(color: Colors.blueAccent),
+                    ),
+                  ),
+                ),
+                SliverPadding(
                   padding: const EdgeInsets.only(top: 16),
                   sliver: SliverList(
                     delegate: SliverChildBuilderDelegate(
